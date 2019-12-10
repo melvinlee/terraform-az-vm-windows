@@ -3,7 +3,7 @@
 Reference the module to a specific version (recommended):
 
 ```
-module "aks" {
+module "virtual_machine" {
     source = "git://github.com/melvinlee/terraform-az-vm-windows.git?ref=v0.1"
 
     name                = var.name
