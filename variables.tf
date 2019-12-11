@@ -68,3 +68,15 @@ variable "boot_diagnostics" {
 variable "tags" {
   description = "(Required) Map of tags for the deployment"
 }
+
+variable "file_uris" {
+  type        = string
+  description = "(Optional) Azure Virtual Machine CustomScriptExtension file URIs"
+  default     = ""
+}
+
+variable "file_name" {
+  type        = string
+  description = "(Optional) Azure Virtual Machine CustomScriptExtension file name"
+  default     = ""
+}
